@@ -1,19 +1,19 @@
 # UFOs
-UCB Module Challenge: Use Java Script, HTML and CSS to create a custom webpage that showcases different UIFO sightings around the world.
+UCB Module Challenge: Use Java Script, HTML and CSS to create a custom webpage that showcases different UFO sightings around the world.
 
 # Overview of the Analysis
 
-We were given the task of improving the webpage by adding more search criteria, aside from the date, which already existed on the page. We were able to add table filters for the city, state, country and shape. The purpose of these additions is to help users come up with more in-depth analysis of UFO sightings. 
+We were given the task of improving the webpage by adding more search criteria, aside from the date, which already existed on the page. We were able to do this by modifying the JavaScript and adding table filters on the HTML for the city, state, country and shape. The purpose of these additions is to help users come up with more in-depth analysis of UFO sightings. 
 
 # Results
 
-The image below is how the finished webpage looks like. Aside from the date, more table filters have been added like city, state, country and shape.
+The image below is how the finished webpage looks like. 
 
 ![UFO_sightings](resources/ufo_sightings.png)
 
 To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what filters were written into the JavaScript of the HTML for the page.
 
-* Results with only BOTH(or all) searched values appearing on the SAME row.
+* Results with ALL searched values appearing on the SAME row.
 
  In this example we are looking for fireball shaped UFO's that appeared in ca(California).
 
