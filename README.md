@@ -13,7 +13,7 @@ The image below is how the finished webpage looks like.
 
 To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what filters were written into the JavaScript of the HTML for the page.
 
-* Results with ALL searched values appearing on the SAME row.
+## Results with ALL searched values appearing on the SAME row ONLY.
 
  In this example we are looking for fireball shaped UFO's that appeared in ca(California).
 
@@ -23,7 +23,7 @@ This is the block of code used to yield search results if the user only wants ro
 
 ![And_Case_Filter](resources/and_case.png)
 
-* Results showing ALL rows with ANY of the searched values.
+## Results showing ALL rows with ANY of the searched values.
 
 The example below uses a different block of code than the one shown above. When we type in fireball for UFO shape and co-Colarado for the state, the search results would show ALL rows with "triangle" and "co" present in them, regardless of whether they exist in the same row or not.
 
@@ -36,7 +36,7 @@ This is the block of code on the JavaScript of the page's HTML that yielded the 
 # Summary
 
 ## Drawback of This Webpage
-At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was currently in use ---meaning, in this decade 2020's--- , even with the different table filters up, I think it WON'T be considered user-friendly; A user today might think that there are too many things/steps that need to be done to start or restart a search .
+At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was currently in use ---meaning, in this decade 2020's--- , even with the different table filters up, I think it WON'T be considered user-friendly; A user today might think that there are too many things/steps that need to be done to start or restart a search.
 
 If the page was to remain the same, meaning without changing any of the code on the JS, a simple change of "Search by" instead of "Enter date(etc..)" on the HTML table filters would be helpful for a person new to the page. 
 
