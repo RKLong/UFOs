@@ -11,7 +11,7 @@ The image below is how the finished webpage looks like.
 
 ![UFO_sightings](resources/ufo_sightings.png)
 
-To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what filters were written into the JavaScript of the HTML for the page.
+To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what b;lock of code is used to loop through the filters which was written into the JavaScript of the HTML for the page.
 
 ## Search results with ALL searched values appearing on the SAME row ONLY.
 
@@ -19,7 +19,7 @@ To initiate a search, type in the information for the specific criteria/fields y
 
 ![Fireballs_in_California](resources/ca_fireballs.png)
 
-This is the block of code used to yield search results if the user only wants rows where all the values they typed in the     search field(s) appear in the same row. It is currently the one in use on the JavaScript referenced on the HTML of the page and can be found in lines 67-76.     
+This is the block of code used to yield search results if the user only wants rows where all the values they typed in the search field(s) appear in the same row. It is currently the one in use on the JavaScript referenced on the HTML of the page and can be found in lines 67-76 of app.js.     
 
 ![And_Case_Filter](resources/and_case.png)
 
@@ -29,7 +29,7 @@ The example below uses a different block of code than the one shown above. When 
 
 ![Triangles_or_Colorado](resources/co_triangles.png)
 
-This is the block of code on the JavaScript of the page's HTML that yielded the results above. It is found in lines 79-86 and is currently "commented out".
+This is the block of code on app.js that yielded the results above. It is found in lines 79-85 and is currently "commented out".
 
 ![Or_Case_Filter](resources/or_case.png)
 
