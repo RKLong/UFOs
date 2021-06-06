@@ -25,7 +25,7 @@ This is the block of code used to yield search results if the user only wants ro
 
 ## Search results showing ALL rows with ANY of the searched values.
 
-The example below uses a different block of code than the one shown above. When we type in fireball for UFO shape and co-Colarado for the state, the search results would show ALL rows with "triangle" and "co" present in them, regardless of whether they exist in the same row or not.
+The example below uses a different block of code than the one shown above. When we type in triangle for UFO shape and co(Colarado) for the state, the search results would show ALL rows with "triangle" and "co" present in them, regardless of whether they exist in the same row or not.
 
 ![Triangles_or_Colorado](resources/co_triangles.png)
 
