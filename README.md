@@ -13,7 +13,7 @@ The image below is how the finished webpage looks like.
 
 To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what filters were written into the JavaScript of the HTML for the page.
 
-## Results with ALL searched values appearing on the SAME row ONLY.
+## Search results with ALL searched values appearing on the SAME row ONLY.
 
  In this example we are looking for fireball shaped UFO's that appeared in ca(California).
 
@@ -23,7 +23,7 @@ This is the block of code used to yield search results if the user only wants ro
 
 ![And_Case_Filter](resources/and_case.png)
 
-## Results showing ALL rows with ANY of the searched values.
+## Search results showing ALL rows with ANY of the searched values.
 
 The example below uses a different block of code than the one shown above. When we type in fireball for UFO shape and co-Colarado for the state, the search results would show ALL rows with "triangle" and "co" present in them, regardless of whether they exist in the same row or not.
 
