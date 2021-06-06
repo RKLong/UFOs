@@ -29,17 +29,19 @@ The example below uses a different block of code than the one shown above. When 
 
 ![Triangles_or_Colorado](resources/co_triangles.png)
 
-This is the block of code on the JavaScript of the page's HTML that yielded the results above. It is found in lines 79-80 and is currently "commented out".
+This is the block of code on the JavaScript of the page's HTML that yielded the results above. It is found in lines 79-86 and is currently "commented out".
 
 ![Or_Case_Filter](resources/or_case.png)
 
 # Summary
 
 ## Drawback of This Webpage
-At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was currently in use ---meaning, in this decade--- , even with the different table filters up, I think it won't be considered user friendly.
+At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was currently in use ---meaning, in this decade 2020's--- , even with the different table filters up, I think it WON'T be considered user-friendly; A user today might think that there are too many things/steps that need to be done to start or restart a search .
 
 If the page was to remain the same, meaning without changing any of the code on the JS, a simple change of "Search by" instead of "Enter date(etc..)" on the HTML table filters would be helpful for a person new to the page. 
 
 ## Additional Recommendations for Further Development
-* Instead of the user deleting what they have typed on the each field or criteria, a "clear all" button for all the search fields or for each specific search field or criteria would be helpful.
+
+* Instead of the user deleting what they have typed on the each field or criteria, a "clear all" button for all the search fields or for each specific search field or criteria would be helpful. The same would be true for a "search" button, which would initiate the search.
+  
 * Having an additional button that reloads or refreshes the page would also be a helpful tool for the user to have instead of hitting the reload button on top of the page if they want to start a new search
