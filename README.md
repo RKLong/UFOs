@@ -3,35 +3,42 @@ UCB Module Challenge: Use Java Script, HTML and CSS to create a custom webpage t
 
 # Overview of the Analysis
 
+We were given the task of improving the webpage by adding more search criteria, aside from the date, which already existed on the page. We were able to add table filters for the city, state, country and shape. The purpose of these additions is to help users come up with more in-depth analysis of UFO sightings. 
+
 # Results
-The picture below shows us how the finished webpage with the multiple search criterias looks like.
+
+The image below is how the finished webpage looks like. Aside from the date, more table filters have been added like city, state, country and shape.
+
 ![UFO_sightings](resources/ufo_sightings.png)
 
-To initiate a search, type in the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the informaton, press enter or return on your keyboard, HOWEVER if there are more fields that need to be filled, press enter or retuen after the last information has been entered. There are two possible search results based on what filters were written into the HTML for the page.
+To initiate a search, type in the information for the specific criteria/fields you want to start looking into. For example - A state and the shape of the UFO. After entering the information in the appropiate field(s), press enter or return on your keyboard, HOWEVER if there are more fields that need to be completed, press enter or return after the last information has been entered. There are two possible search results based on what filters were written into the JavaScript of the HTML for the page.
 
 * Results with only BOTH(or all) searched values appearing on the SAME row.
-In this example we are looking for fireball shaped UFO's that appeared in ca - California.
+
+ In this example we are looking for fireball shaped UFO's that appeared in ca(California).
 
 ![Fireballs_in_California](resources/ca_fireballs.png)
 
-This is the block of code used to yield search results if the user only wants rows where all the values they typed in the   search field(s) appear in the same row. It is currently the one in use on the HTML of the page and can be found on lines     
+This is the block of code used to yield search results if the user only wants rows where all the values they typed in the     search field(s) appear in the same row. It is currently the one in use on the JavaScript referenced on the HTML of the page and can be found in lines 67-76.     
 
 ![And_Case_Filter](resources/and_case.png)
 
 * Results showing ALL rows with ANY of the searched values.
+
 The example below uses a different block of code than the one shown above. When we type in fireball for UFO shape and co-Colarado for the state, the search results would show ALL rows with "triangle" and "co" present in them, regardless of whether they exist in the same row or not.
 
 ![Triangles_or_Colorado](resources/co_triangles.png)
 
-This is the block of code that yielded the results above. It is found in lines and is currently "commented out" in the HTML   of the current page.
+This is the block of code on the JavaScript of the page's HTML that yielded the results above. It is found in lines 79-80 and is currently "commented out".
 
 ![Or_Case_Filter](resources/or_case.png)
 
-
-
 # Summary
+
 ## Drawback of This Webpage
-At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was to remain the same, a simple change of "Search by" instead of "Enter date(etc..)" would be helpful for a person new to the page.   
+At first glance and if not familiar with how to search for information on the page, the user might assume that all search fields might need to be filled up or completed in order to start a search. If the page was currently in use ---meaning, in this decade--- , even with the different table filters up, I think it won't be considered user friendly.
+
+If the page was to remain the same, meaning without changing any of the code on the JS, a simple change of "Search by" instead of "Enter date(etc..)" on the HTML table filters would be helpful for a person new to the page. 
 
 ## Additional Recommendations for Further Development
 * Instead of the user deleting what they have typed on the each field or criteria, a "clear all" button for all the search fields or for each specific search field or criteria would be helpful.
